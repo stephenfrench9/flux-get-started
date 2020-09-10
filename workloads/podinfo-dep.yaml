@@ -55,6 +55,7 @@ spec:
         - --level=info
         - --random-delay=false
         - --random-error=false
+        - --ui-message='hello, this was written into the text file podinfo-dep.yaml'
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
