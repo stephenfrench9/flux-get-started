@@ -34,7 +34,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: gcr.io/google-samples/hello-app:1.0
+        image: gcr.io/google-samples/hello-app:2.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
