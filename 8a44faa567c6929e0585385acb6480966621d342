@@ -1,0 +1,1 @@
+{"jobID":"65dbc689-26e8-66c9-c663-4ac4f41b423c","spec":{"type":"policy","cause":{"Message":"","User":"Stephen French \u003cstephen.french@invitae.com\u003e"},"spec":{"flux:deployment/podinfo":{"add":{"locked":"true","locked_msg":"","locked_user":"Stephen French \u003cstephen.french@invitae.com\u003e"},"remove":{}}}},"result":null}
