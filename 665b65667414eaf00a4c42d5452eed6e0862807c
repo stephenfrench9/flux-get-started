@@ -1,0 +1,1 @@
+{"jobID":"a40e07de-7c82-49b4-6696-c5ac74e67ee5","spec":{"type":"policy","cause":{"Message":"","User":"Stephen French \u003cstephen.french@invitae.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{},"remove":{"automated":"true"}}}},"result":null}
