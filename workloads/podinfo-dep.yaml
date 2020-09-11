@@ -10,7 +10,6 @@ metadata:
   annotations:
     fluxcd.io/tag.init: regex:^3.10.*
     fluxcd.io/tag.podinfod: semver:~3.1
-    fluxcd.io/automated: 'true'
 spec:
   strategy:
     rollingUpdate:
