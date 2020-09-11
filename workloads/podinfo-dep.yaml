@@ -7,6 +7,9 @@ metadata:
   labels:
     app: podinfo
     sanfrancisco: california
+  annotations:
+    fluxcd.io/locked_user: Stephen French <stephen.french@invitae.com>
+    fluxcd.io/locked: 'true'
 spec:
   strategy:
     rollingUpdate:
