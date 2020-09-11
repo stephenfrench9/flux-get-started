@@ -46,16 +46,16 @@ spec:
         - name: grpc
           containerPort: 9999
           protocol: TCP
-        command:
-        - ./podinfo
-        - --port=9898
-        - --port-metrics=9797
-        - --grpc-port=9999
-        - --grpc-service-name=podinfo
-        - --level=info
-        - --random-delay=false
-        - --random-error=false
-        - --ui-message='hello, this was written into the text file podinfo-dep.yaml'
+#        command:
+#        - ./podinfo
+#        - --port=9898
+#        - --port-metrics=9797
+#        - --grpc-port=9999
+#        - --grpc-service-name=podinfo
+#        - --level=info
+#        - --random-delay=false
+#        - --random-error=false
+#        - --ui-message='hello, this was written into the text file podinfo-dep.yaml'
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
