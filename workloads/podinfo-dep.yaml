@@ -7,9 +7,6 @@ metadata:
   labels:
     app: podinfo
     sanfrancisco: california
-  annotations:
-#    fluxcd.io/tag.init: regex:^3.10.*
-#    fluxcd.io/tag.podinfod: semver:~3.1
 spec:
   strategy:
     rollingUpdate:
@@ -46,27 +43,9 @@ spec:
         - name: grpc
           containerPort: 9999
           protocol: TCP
-#        command:
-#        - ./podinfo
-#        - --port=9898
-#        - --port-metrics=9797
-#        - --grpc-port=9999
-#        - --grpc-service-name=podinfo
-#        - --level=info
-#        - --random-delay=false
-#        - --random-error=false
-#        - --ui-message='hello, this was written into the text file podinfo-dep.yaml'
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
-#        livenessProbe:
-#          httpGet:
-#            path: /healthz
-#            port: 9898
-#        readinessProbe:
-#          httpGet:
-#            path: /readyz
-#            port: 9898
         resources:
           limits:
             cpu: 1000m
