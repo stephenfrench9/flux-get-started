@@ -28,13 +28,13 @@ spec:
     spec:
       initContainers:
       - name: init
-        image: alpine:3.10
+        image: alpine:20200626
         command:
         - sleep
         - "1"
       containers:
       - name: podinfod
-        image: gcr.io/google-samples/hello-app:2.0
+        image: gcr.io/google-samples/hello-app:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
