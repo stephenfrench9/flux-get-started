@@ -59,10 +59,10 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: "#34577c"
-        livenessProbe:
-          httpGet:
-            path: /healthz
-            port: 9898
+#        livenessProbe:
+#          httpGet:
+#            path: /healthz
+#            port: 9898
         readinessProbe:
           httpGet:
             path: /readyz
