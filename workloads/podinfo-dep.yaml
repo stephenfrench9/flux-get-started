@@ -63,10 +63,10 @@ spec:
 #          httpGet:
 #            path: /healthz
 #            port: 9898
-        readinessProbe:
-          httpGet:
-            path: /readyz
-            port: 9898
+#        readinessProbe:
+#          httpGet:
+#            path: /readyz
+#            port: 9898
         resources:
           limits:
             cpu: 1000m
