@@ -7,8 +7,6 @@ metadata:
   labels:
     app: podinfo
     sanfrancisco: california
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   strategy:
     rollingUpdate:
