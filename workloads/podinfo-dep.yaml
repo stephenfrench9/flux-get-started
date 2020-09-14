@@ -9,6 +9,7 @@ metadata:
     sanfrancisco: california
   annotations:
     fluxcd.io/automated: 'true'
+    fluxcd.io/tag.podinfod: glob:release-*
 spec:
   strategy:
     rollingUpdate:
