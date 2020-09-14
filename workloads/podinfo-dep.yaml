@@ -33,7 +33,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: docker-repo.vpc.locusdev.net/racoonapp:1.0.0
+        image: docker-repo.vpc.locusdev.net/horse:1.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
