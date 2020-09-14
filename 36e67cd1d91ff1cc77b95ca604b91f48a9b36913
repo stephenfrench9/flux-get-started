@@ -1,0 +1,1 @@
+{"jobID":"1375cdad-5cc5-2806-3f40-93c4b32cf74a","spec":{"type":"policy","cause":{"Message":"","User":"Stephen French \u003cstephen.french@invitae.com\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag.podinfod":"glob:release-*"},"remove":{}}}},"result":null}
